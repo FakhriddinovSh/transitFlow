@@ -1,0 +1,146 @@
+.hero {
+	background-image: url('../../assets/images/home/heroBg.png');
+	background-repeat: no-repeat;
+}
+
+.hero__header {
+	background-color: rgba(9, 18, 66, 0.25);
+}
+
+.hero__header-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero__nav-list,
+.hero__header-social {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	padding-top: 20px;
+}
+
+.hero__nav-item {
+	position: relative;
+}
+
+.hero__nav-item::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 1px;
+	height: 20px;
+	background-color: #ffffff33;
+	content: '';
+}
+
+.hero__nav-link {
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 135.023%;
+	text-decoration: none;
+	border-bottom: 4px solid transparent;
+}
+
+.hero__nav-item:first-child a {
+	padding-left: 26px;
+}
+
+.hero__nav-item:last-child::after {
+	display: none;
+}
+
+.hero__nav-item:last-child a {
+	padding-right: 26px;
+}
+
+.hero__nav-link--active {
+	border-bottom: 4px solid #fff;
+}
+
+.hero__header-social {
+	margin-right: 50px;
+	gap: 24px;
+}
+
+.hero__header-item a {
+	color: #fff;
+}
+
+.hero__header-item a:hover {
+	color: #091242;
+}
+
+.hero__header-quote {
+	width: 216px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	text-decoration: none;
+	color: #23212a;
+	font-weight: 600;
+	line-height: 135.023%;
+}
+
+.hero__bottom-wrapper {
+	width: 554px;
+	padding-top: 173px;
+	padding-bottom: 200px;
+	color: #fff;
+}
+
+.hero__badge {
+	position: relative;
+	padding: 3px 9px;
+	background-color: rgba(4, 28, 55, 0.5);
+	font-family: 'Rubik';
+	font-size: 14px;
+}
+
+.hero__badge::before {
+	position: absolute;
+	top: 0;
+	left: -4px;
+	width: 4px;
+	height: 23px;
+	background: linear-gradient(
+		127deg,
+		#ffb629 0%,
+		#ffda56 50.72%,
+		#ffd7a6 100%
+	);
+	content: '';
+}
+
+.hero__title {
+	margin-top: 8px;
+	margin-bottom: 6px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.hero__description {
+	margin: 0;
+	font-weight: 500;
+	line-height: 151.523%;
+}
+
+.hero__link {
+	display: inline-block;
+	width: 194px;
+	margin-top: 24px;
+	padding: 19px 0;
+	font-weight: 600;
+	line-height: 135.023%;
+	text-decoration: none;
+	text-align: center;
+	color: #23212a;
+	background: linear-gradient(#ffb629, #ffda56, #ffd7a6);
+}

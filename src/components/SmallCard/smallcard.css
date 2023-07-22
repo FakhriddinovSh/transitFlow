@@ -1,0 +1,27 @@
+.small__item {
+	display: flex;
+	align-items: flex-start;
+	width: 391px;
+	margin-bottom: 70px;
+}
+
+.small__subwrapper {
+	margin-left: 35px;
+	padding-left: 25px;
+	border-left: 1px solid #d8d8d8;
+}
+
+.small__title {
+	margin: 0;
+	color: #1c1f35;
+	font-family: 'Rubik', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.small__desc {
+	margin: 0;
+	margin-top: 13px;
+	color: #666c89;
+	font-weight: 500;
+}

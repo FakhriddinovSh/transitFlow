@@ -1,0 +1,96 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/assets/fonts/krub-v9-latin-regular.woff2') format('woff2');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../src/assets/fonts/krub-v9-latin-500.woff2') format('woff2');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Krub';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../src/assets/fonts/krub-v9-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../src/assets/fonts/rubik-v28-latin-regular.woff2')
+		format('woff2');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../src/assets/fonts/rubik-v28-latin-500.woff2') format('woff2');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../src/assets/fonts/rubik-v28-latin-600.woff2') format('woff2');
+}
+@font-face {
+	font-display: swap;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../src/assets/fonts/rubik-v28-latin-700.woff2') format('woff2');
+}
+
+/* GENERAL */
+* {
+	box-sizing: border-box;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Krub', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* CONTAINER */
+.container {
+	max-width: 100%;
+	width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+/* STICKY-FOOTER */
+.site-main {
+	flex-grow: 1;
+}
