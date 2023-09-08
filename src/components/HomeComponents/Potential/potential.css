@@ -1,0 +1,49 @@
+.potential {
+	display: flex;
+}
+
+.potential__left {
+	width: 50%;
+	padding: 142px 0;
+	background-color: #1c1f35;
+}
+
+.potential__left img {
+	position: relative;
+	right: -20px;
+	top: 20%;
+}
+
+.potential__right {
+	width: 50%;
+	background-color: #f4f4f4;
+	padding-top: 200px;
+	padding-left: 130px;
+}
+
+.potential__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 600px;
+}
+
+.potential__sublist li:nth-child(2)::before {
+	background-image: url('../../../assets/images/icons/globalTracking.svg');
+}
+
+.potential__sublist li:nth-child(3)::before {
+	background-image: url('../../../assets/images/icons/inTime.svg');
+}
+
+.potential__secondlist li:nth-child(1)::before {
+	background-image: url('../../../assets/images/icons/shipEverywhere.svg');
+}
+
+.potential__secondlist li:nth-child(2)::before {
+	background-image: url('../../../assets/images/icons/support.svg');
+}
+
+.potential__secondlist li:nth-child(3)::before {
+	background-image: url('../../../assets/images/icons/pricing.svg');
+}

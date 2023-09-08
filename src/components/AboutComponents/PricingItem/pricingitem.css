@@ -1,0 +1,59 @@
+.pricing__item {
+	width: 380px;
+	padding: 61px 50px;
+	text-align: center;
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	color: #1c1f35;
+}
+
+.pricing__subtitle {
+	margin: 0;
+	margin-bottom: 38px;
+	font-family: 'Rubik';
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.pricing__price {
+	margin: 0;
+	font-family: 'Rubik';
+	font-size: 85px;
+	font-weight: 500;
+}
+
+.pricing__price span {
+	margin-left: -30px;
+	font-family: 'Rubik';
+	font-size: 22px;
+}
+
+.pricing__sublist {
+	margin: 50px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.pricing__subitem {
+	padding: 15px 0;
+	font-family: 'Rubik';
+	font-size: 20px;
+	border-top: 1px solid #d6d6d6;
+	border-collapse: collapse;
+}
+
+.pricing__subitem:last-child {
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.pricing__link {
+	display: inline-block;
+	width: 194px;
+	padding: 19px 0;
+	color: #fff;
+	font-weight: 600;
+	line-height: 135.023%;
+	text-decoration: none;
+	background-color: #1f2a69;
+	border-radius: 5px;
+}

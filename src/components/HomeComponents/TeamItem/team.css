@@ -1,0 +1,51 @@
+.team__item {
+	position: relative;
+	width: 370px;
+}
+
+.team__item img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.team__wrapper {
+	padding-top: 42px;
+	padding-bottom: 20px;
+	padding-left: 34px;
+	background-color: #1c1f35;
+	color: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.team__subtitle {
+	margin: 0;
+	font-family: 'Rubik';
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.team__job {
+	margin: 0;
+	font-weight: 500;
+	line-height: 151.523%;
+}
+
+.team__social {
+	position: absolute;
+	bottom: 80px;
+	right: 0;
+	display: flex;
+	gap: 20px;
+	width: 140px;
+	margin: 0;
+	padding: 0;
+	padding: 20px 17px;
+	background: linear-gradient(
+		127deg,
+		#ffb629 0%,
+		#ffda56 50.72%,
+		#ffd7a6 100%
+	);
+	list-style: none;
+}

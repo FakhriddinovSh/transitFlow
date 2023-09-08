@@ -1,0 +1,34 @@
+.process {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.process__wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+
+.process__inner {
+	position: relative;
+	display: flex;
+}
+
+.process__inner img:nth-child(1) {
+	width: 686px;
+	height: 426px;
+}
+
+.process__inner img:nth-child(2) {
+	position: absolute;
+	bottom: -30px;
+	right: -30px;
+	width: 349px;
+	height: 333px;
+}
+
+.process__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

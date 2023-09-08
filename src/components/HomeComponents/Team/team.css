@@ -1,0 +1,28 @@
+.team {
+	padding: 100px 0;
+}
+
+.team__badge {
+	display: block !important;
+	width: 127px;
+	margin: 0 auto;
+}
+
+.cause__badge::before {
+	height: 26px !important;
+}
+
+.team__title {
+	margin-top: 16px !important;
+	margin-bottom: 28px !important;
+	text-align: center;
+}
+
+.team__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

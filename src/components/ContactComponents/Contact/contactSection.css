@@ -1,0 +1,99 @@
+.contact-section {
+	width: 954px;
+	margin: 100px auto;
+	padding: 100px 98px;
+	text-align: center;
+	background-color: #091242;
+	color: #fff !important;
+}
+
+.connect__title,
+.connect__badge {
+	color: #fff;
+}
+
+.connect__desc {
+	color: #fff;
+	font-weight: 500;
+	line-height: 151.523%;
+}
+
+.connect__list {
+	display: flex;
+	margin: 0;
+	margin-top: 40px;
+	padding: 0;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.connect__item {
+	width: 158px;
+}
+
+.connect__item a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 135.023%;
+	text-decoration: none;
+}
+
+.connect__item::before {
+	display: block;
+	width: 63px;
+	height: 63px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-image: url('../../../assets/images/icons/mailIcon.svg');
+	content: '';
+}
+
+.connect__item:nth-child(2):before {
+	background-image: url('../../../assets/images/icons/telLogo.svg');
+}
+
+.connect__item:nth-child(3):before {
+	background-image: url('../../../assets/images/icons/timeLogo.svg');
+}
+
+.contact-form {
+	margin-top: 22px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.connect__input {
+	width: 347px;
+	margin-bottom: 31px;
+	margin-right: 20px;
+	color: #fff !important;
+	border-color: #fff;
+}
+
+.connect__input::placeholder {
+	color: #fff;
+}
+
+.connect__textarea::placeholder {
+	color: #fff;
+}
+
+.connect__textarea {
+	width: 715px;
+	border-color: #fff;
+}
+
+.connect__link {
+	width: 194px;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 19px 0;
+	color: #23212a;
+	font-weight: 600;
+	line-height: 135.023%; /* 21.604px */
+	background-color: #ffb629;
+	border-radius: 10px;
+	border: transparent;
+}

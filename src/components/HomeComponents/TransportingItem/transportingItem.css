@@ -1,0 +1,24 @@
+.transporting__item {
+	display: inline-flex;
+	align-items: flex-end;
+	width: 320px !important;
+	height: 407px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	background-image: url('../../../assets/images/home/TruckImage.png');
+}
+
+.transporting__subtitle {
+	margin: 0;
+	margin-bottom: 4px;
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.transporting__description {
+	margin: 0;
+	color: #ffb629;
+	font-weight: 500;
+}

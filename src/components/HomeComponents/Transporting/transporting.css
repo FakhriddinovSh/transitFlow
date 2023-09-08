@@ -1,0 +1,35 @@
+.transporting__title {
+	margin: 0;
+	margin-bottom: 35px;
+	color: #1c1f35;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.transporting__wrapper {
+	max-width: 1334px;
+	margin: 0 auto;
+}
+
+.transporting__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	gap: 18px;
+	padding-left: 0;
+}
+
+.transporting__link {
+	display: block;
+	width: 194px;
+	margin: 0 auto;
+	margin-top: 65px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	background-color: #091242;
+	color: #fff;
+	font-weight: 600;
+}
