@@ -1,4 +1,3 @@
-// import { HomeCounts } from '../../components/HomeComponents/HomeCounts/HomeCounts';
 import { Contact } from '../../components/HomeComponents/Contact/Contact';
 import { Feedback } from '../../components/HomeComponents/Feedback/Feedback';
 import { HomeCounts } from '../../components/HomeComponents/HomeCounts/HomeCounts';
@@ -35,7 +34,7 @@ export const Home = () => {
 					src={SeaImage}
 					width="1320"
 					height="412"
-					alt=""
+					alt="Sea image"
 				/>
 			</main>
 		</>

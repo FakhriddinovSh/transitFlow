@@ -1,6 +1,6 @@
 import './carouselItem.css';
 import BlockQuote from '../../../assets/images/icons/blockquote.svg';
-import UserIcon from '../../../assets/images/home/user.png';
+import UserIcon from '../../../assets/images/home/User.png';
 
 export const CarouselItem = () => {
 	return (
